@@ -21,7 +21,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    if (editId !== null) {
+    if (editId !== null && editId != -1) {
 
       const updateTodo = todos.map((todo) => {
         return (
