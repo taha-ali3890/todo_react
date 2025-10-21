@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+form{
+  width: 970px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+form input{
+  flex-basis: 50%;
+  height: 40px;
+}
+form button{
+  flex-basis: 20%;
+}
+.outer-div{
+  width: 710px;
+  margin: auto;
+}
+.outer-div ul{
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+}
+.outer-div ul li{
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-family:sans-serif;
+}
+.outer-div ul li span{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.outer-div ul li button{
+position: absolute;
+  right: 50px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.message{
+  width: 600px;
+  height: 200px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
